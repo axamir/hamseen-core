@@ -16,6 +16,8 @@ Hamseen unifies building operations, resident services, local commerce, communit
 - [Architecture](architecture/README.md)
 - [Product](product/README.md)
 - [Project metadata](meta/README.md)
+- [AI build instructions](AI_BUILD_INSTRUCTIONS.md)
+- [Definition of done](DEFINITION_OF_DONE.md)
 
 ## Product status
 
@@ -47,6 +49,6 @@ Product definition and architecture. The repository is the single source of trut
 
 ## Documentation rule
 
-Every numbered document must exist in both `docs/en` and `docs/fa` under the same filename. The two versions must express the same product decisions; neither language is secondary.
+Every numbered document must exist in both `docs/en` and `docs/fa` under the same filename. The two versions must express the same product decisions; neither language is secondary. Build agents must follow `AGENTS.md` and may not silently expand MVP scope.
 
 تمام سندهای شماره‌دار باید با نام یکسان در `docs/en` و `docs/fa` وجود داشته باشند. هر دو نسخه باید تصمیم‌های محصولی یکسانی را منتقل کنند و هیچ‌کدام ترجمه فرعی دیگری نیست.

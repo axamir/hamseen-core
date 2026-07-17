@@ -8,3 +8,4 @@ Read the documents in numerical order. They move from purpose and pilot context 
 | 04–12 | Information architecture and product modules |
 | 13–15 | Data, API, security |
 | 16–20 | MVP, acceptance, build, pilot, commercialization |
+| 21–25 | Workflows, UX, design, implementation, landing page |
