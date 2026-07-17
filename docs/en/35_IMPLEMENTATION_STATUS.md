@@ -13,13 +13,16 @@ Review date: 17 July 2026
 - booking with conflict prevention
 - synthetic balance, receipt submission/deduplication/accountant review
 - sensitive-action audit and cross-tenant tests
+- package receipt/notification/collection and Notification Intent
+- versioned management notice creation and publication
+- constrained role-aware assistant with sources and no autonomous execution
 
 ## Not production-ready yet
 
 - real authentication, OTP/MFA, session management
 - PostgreSQL/NestJS, storage, Redis, queues, observability
-- real Push/Bale/Telegram/SMS delivery
-- files/media, complete packages, notice administration, comprehensive finance
+- real Push/Bale/Telegram/SMS delivery (internal Intent exists)
+- files/media, advanced package detail, comprehensive finance reporting
 - operational backup/restore, CI/CD, deployment, load/penetration testing
 - final legal text and contracts
 

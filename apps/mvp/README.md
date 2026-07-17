@@ -1,6 +1,6 @@
 # Hamseen constrained MVP
 
-Functional local vertical slice with SQLite persistence, role-aware API, audit events, guest lifecycle, tickets, booking conflict control, synthetic unit finance, and receipt review.
+Functional local vertical slice with SQLite persistence, role-aware API, audit events, guest lifecycle, packages, notices, tickets, booking conflict control, synthetic unit finance, receipt review, and a constrained sourced assistant.
 
 ```bash
 pnpm --dir apps/mvp seed
