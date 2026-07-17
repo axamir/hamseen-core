@@ -2,7 +2,12 @@ name: Deploy presentation to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ["apps/demo/**", ".github/workflows/pages.yml"]
+    paths:
+      - "apps/demo/**"
+      - "index.html"
+      - "404.html"
+      - ".nojekyll"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 permissions:
   contents: read
