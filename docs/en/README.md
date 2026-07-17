@@ -11,5 +11,6 @@ Read the documents in numerical order. They move from purpose and pilot context 
 | 21–25 | Workflows, UX, design, implementation, landing page |
 | 26 | Board validation questionnaire for real building data |
 | 27–30 | MVP execution, permissions, data dictionary, and API contract |
+| 31–32 | Security and AI safety; pilot operations, migration, and measurement |
 
 Use the [Lavizan board data validation questionnaire](26_BOARD_DATA_VALIDATION.md) in stakeholder meetings. Proposed defaults are not building facts until confirmed.
