@@ -1,0 +1,7 @@
+{
+  "profile": {"status": "board-confirmed", "confirmed_at": "YYYY-MM-DD", "confirmed_by_role": "Board representative"},
+  "community": {"name_fa": "نام رسمی مجتمع", "address_fa": "نشانی رسمی تأییدشده"},
+  "structure": {"floors_per_block": 14, "units_per_floor": 8},
+  "pilot": {"initial_households": 30},
+  "policies": {"package_overdue_hours": 72}
+}

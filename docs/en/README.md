@@ -15,5 +15,7 @@ Read the documents in numerical order. They move from purpose and pilot context 
 | 33–34 | Commercial/pricing model; presentation and interactive demo pack |
 | 35 | Current implementation, production gaps, and external dependencies |
 | 36 | Evidence audit for documentation, presentation, and constrained MVP |
+| 37 | Replaceable assumption registry and board override flow |
+| 38–39 | Two authoritative remaining-work lists: product and engineering |
 
 Use the [Lavizan board data validation questionnaire](26_BOARD_DATA_VALIDATION.md) in stakeholder meetings. Proposed defaults are not building facts until confirmed.

@@ -16,19 +16,26 @@ Review date: 17 July 2026
 - package receipt/notification/collection and Notification Intent
 - versioned management notice creation and publication
 - constrained role-aware assistant with sources and no autonomous execution
+- validated, explicitly assumed Lavizan defaults with private override flow
+- board-friendly bilingual data worksheet and safe import starters
+- CI quality workflow, local dependency Compose baseline, environment contract
+- security headers, request IDs, size/rate controls, health/readiness and graceful shutdown
+- local SQLite backup/checksum/integrity tooling and PostgreSQL RLS/audit starter
 
 ## Not production-ready yet
 
 - real authentication, OTP/MFA, session management
-- PostgreSQL/NestJS, storage, Redis, queues, observability
+- full PostgreSQL/NestJS API implementation, queues, observability and live object storage
 - real Push/Bale/Telegram/SMS delivery (internal Intent exists)
 - files/media, advanced package detail, comprehensive finance reporting
-- operational backup/restore, CI/CD, deployment, load/penetration testing
+- production encrypted backup/restore, deployment, load/accessibility/penetration testing
 - final legal text and contracts
 
 ## External dependency — board
 
 Questionnaire 26, unit/resident data, finance/guest/amenity/retention rules, pilot owners, budget, and acceptance signatures. Missing answers do not block synthetic development, but do block live deployment.
+
+Document 37 and the board worksheet provide safe defaults and an override path, so missing answers no longer block build work. They still block a live pilot until confirmed.
 
 ## External dependency — specialists
 

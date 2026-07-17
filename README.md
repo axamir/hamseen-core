@@ -20,6 +20,9 @@ Hamseen unifies building operations, resident services, local commerce, communit
 - [Definition of done](DEFINITION_OF_DONE.md)
 - [Run the interactive local demo](apps/demo/README.md)
 - [Run the constrained functional MVP](apps/mvp/README.md)
+- [Product completion list](docs/en/38_REMAINING_WORK_LIST_ONE_PRODUCT.md) / [فهرست تکمیل محصول](docs/fa/38_REMAINING_WORK_LIST_ONE_PRODUCT.md)
+- [Engineering readiness list](docs/en/39_REMAINING_WORK_LIST_TWO_ENGINEERING.md) / [فهرست آمادگی مهندسی](docs/fa/39_REMAINING_WORK_LIST_TWO_ENGINEERING.md)
+- [Board data worksheet](templates/board/BOARD_DATA_WORKSHEET.en.md) / [کاربرگ اطلاعات هیئت‌مدیره](templates/board/BOARD_DATA_WORKSHEET.fa.md)
 
 ## Product status
 
@@ -34,6 +37,7 @@ pnpm seed       # synthetic SQLite data
 pnpm demo       # presentation at http://127.0.0.1:4173
 pnpm mvp        # functional slice at http://127.0.0.1:4180
 pnpm check      # syntax and domain tests
+pnpm config:check # validate replaceable assumed/approved community config
 ```
 
 Both surfaces contain synthetic data only. The demo presents the product; the MVP persists role-aware guest, ticket, booking, and receipt workflows locally.

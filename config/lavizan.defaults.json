@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "id": "lavizan-demo",
+    "status": "assumed",
+    "replaceable": true,
+    "warning_fa": "تمام مقادیر این پرونده پیشنهادی و برای ادامه طراحی و آزمون هستند؛ پیش از پایلوت زنده باید توسط نماینده مجاز مجتمع تأیید یا جایگزین شوند.",
+    "warning_en": "Every value in this profile is an assumed design/test default and must be confirmed or replaced by an authorized community representative before a live pilot."
+  },
+  "community": {
+    "name_fa": "مجتمع مسکونی لویزان",
+    "name_en": "Lavizan Residential Community",
+    "city_fa": "مشهد",
+    "city_en": "Mashhad",
+    "timezone": "Asia/Tehran",
+    "locale": "fa-IR",
+    "currency": "IRR"
+  },
+  "structure": {
+    "blocks": ["A", "B", "C"],
+    "floors_per_block": 14,
+    "units_per_floor": 8,
+    "wings_per_floor": 2,
+    "units_per_wing": 4,
+    "expected_unit_count": 336
+  },
+  "pilot": {
+    "initial_households": 30,
+    "initial_blocks": ["A"],
+    "parallel_legacy_cycles": 2,
+    "support_hours_fa": "روزهای کاری، ۸ تا ۲۰",
+    "support_hours_en": "Business days, 08:00–20:00"
+  },
+  "policies": {
+    "guest_default_hours": 2,
+    "package_overdue_hours": 72,
+    "booking_slot_minutes": 60,
+    "booking_buffer_minutes": 15,
+    "receipt_review_business_days": 2,
+    "ticket_sla_hours": {"critical": 1, "urgent": 4, "normal": 24, "low": 72},
+    "retention": {
+      "guest_events_days": 90,
+      "package_records_days": 180,
+      "operational_tickets_days": 730,
+      "audit_events_days": 2555,
+      "financial_records_days": 3650
+    }
+  },
+  "amenities": [
+    {"code": "community-hall", "name_fa": "سالن اجتماعات", "name_en": "Community Hall", "capacity": 40},
+    {"code": "football-court", "name_fa": "زمین فوتبال", "name_en": "Football Court", "capacity": 16},
+    {"code": "basketball-court", "name_fa": "زمین بسکتبال", "name_en": "Basketball Court", "capacity": 12},
+    {"code": "kids-playground", "name_fa": "زمین بازی کودکان", "name_en": "Kids Playground", "capacity": 20}
+  ],
+  "modules": ["notices", "guests", "packages", "tickets", "finance", "reservations", "basic-ai"],
+  "demo": {
+    "synthetic_notice_fa": "سرویس دوره‌ای آسانسور",
+    "synthetic_notice_en": "Scheduled lift service",
+    "synthetic_users": true
+  }
+}

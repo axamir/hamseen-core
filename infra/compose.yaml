@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: hamseen
+      POSTGRES_USER: hamseen
+      POSTGRES_PASSWORD: local_only_change_me
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["hamseen_pg:/var/lib/postgresql/data"]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U hamseen"], interval: 5s, timeout: 3s, retries: 10}
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes: ["hamseen_redis:/data"]
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address :9001
+    environment: {MINIO_ROOT_USER: localadmin, MINIO_ROOT_PASSWORD: local_only_change_me}
+    ports: ["127.0.0.1:9000:9000", "127.0.0.1:9001:9001"]
+    volumes: ["hamseen_files:/data"]
+volumes: {hamseen_pg: {}, hamseen_redis: {}, hamseen_files: {}}
