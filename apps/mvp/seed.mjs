@@ -1,0 +1,1 @@
+import {mkdirSync} from 'node:fs';import {createCore} from './core.mjs';mkdirSync(new URL('data/',import.meta.url),{recursive:true});const core=createCore(new URL('data/hamseen.sqlite',import.meta.url).pathname);core.seed();console.log('Seeded deterministic synthetic Lavizan data.');

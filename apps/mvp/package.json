@@ -1,0 +1,1 @@
+{"name":"@hamseen/mvp","private":true,"type":"module","scripts":{"dev":"node server.mjs","test":"node --test test/*.test.mjs","seed":"node seed.mjs"}}

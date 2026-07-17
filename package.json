@@ -1,0 +1,12 @@
+{
+  "name":"hamseen-core",
+  "private":true,
+  "packageManager":"pnpm@11.9.0",
+  "scripts":{
+    "demo":"pnpm --dir apps/demo dev",
+    "mvp":"pnpm --dir apps/mvp dev",
+    "seed":"pnpm --dir apps/mvp seed",
+    "test":"pnpm --dir apps/demo test && pnpm --dir apps/mvp test",
+    "check":"node --check apps/demo/app.js && node --check apps/mvp/core.mjs && node --check apps/mvp/server.mjs && node --check apps/mvp/public/app.js && pnpm test"
+  }
+}

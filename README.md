@@ -19,12 +19,24 @@ Hamseen unifies building operations, resident services, local commerce, communit
 - [AI build instructions](AI_BUILD_INSTRUCTIONS.md)
 - [Definition of done](DEFINITION_OF_DONE.md)
 - [Run the interactive local demo](apps/demo/README.md)
+- [Run the constrained functional MVP](apps/mvp/README.md)
 
 ## Product status
 
-Product definition and architecture. The repository is the single source of truth for product scope, UX, technical design, MVP delivery, pilot validation, and commercialization.
+Product definition, interactive presentation, and constrained local MVP. The repository is the single source of truth for product scope, UX, technical design, delivery, pilot validation, and commercialization. See [current implementation status](docs/en/35_IMPLEMENTATION_STATUS.md).
 
-مرحله فعلی، تعریف محصول و معماری است. این مخزن مرجع واحد دامنه محصول، تجربه کاربری، طراحی فنی، MVP، پایلوت و تجاری‌سازی خواهد بود.
+مرحله فعلی شامل تعریف محصول، ارائه تعاملی و MVP محدود محلی است. این مخزن مرجع واحد دامنه، تجربه، طراحی فنی، تحویل، پایلوت و تجاری‌سازی است. [وضعیت واقعی پیاده‌سازی](docs/fa/35_IMPLEMENTATION_STATUS.md) را ببینید.
+
+## Run locally
+
+```bash
+pnpm seed       # synthetic SQLite data
+pnpm demo       # presentation at http://127.0.0.1:4173
+pnpm mvp        # functional slice at http://127.0.0.1:4180
+pnpm check      # syntax and domain tests
+```
+
+Both surfaces contain synthetic data only. The demo presents the product; the MVP persists role-aware guest, ticket, booking, and receipt workflows locally.
 
 ## Core product areas
 

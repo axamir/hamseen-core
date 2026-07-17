@@ -13,5 +13,6 @@ Read the documents in numerical order. They move from purpose and pilot context 
 | 27–30 | MVP execution, permissions, data dictionary, and API contract |
 | 31–32 | Security and AI safety; pilot operations, migration, and measurement |
 | 33–34 | Commercial/pricing model; presentation and interactive demo pack |
+| 35 | Current implementation, production gaps, and external dependencies |
 
 Use the [Lavizan board data validation questionnaire](26_BOARD_DATA_VALIDATION.md) in stakeholder meetings. Proposed defaults are not building facts until confirmed.
