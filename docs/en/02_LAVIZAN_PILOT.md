@@ -33,3 +33,5 @@ Start with 20–40 units, one guard shift, one manager, and limited accounting d
 ## Unknowns to validate
 
 Legal entity, contact information, social accounts, current accounting process, resident demographics, existing service contracts, internet coverage, payment provider, and formal approval authority.
+
+Answers, evidence, and approval records are collected through the [board data validation questionnaire](26_BOARD_DATA_VALIDATION.md). Until confirmed, this document contains working stakeholder information rather than official public claims.

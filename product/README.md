@@ -11,3 +11,5 @@
 7. Productize provisioning, support, billing, and module installation.
 
 Key references: [Product overview](../docs/en/01_PRODUCT_OVERVIEW.md), [MVP scope](../docs/en/16_MVP_SCOPE.md), [Acceptance criteria](../docs/en/17_ACCEPTANCE_CRITERIA.md), [Build order](../docs/en/18_BUILD_ORDER.md), and [Pilot plan](../docs/en/19_PILOT_PLAN.md).
+
+Before implementation uses Lavizan-specific rules or data, complete and approve the [English board validation questionnaire](../docs/en/26_BOARD_DATA_VALIDATION.md) / [پرسش‌نامه فارسی هیئت‌مدیره](../docs/fa/26_BOARD_DATA_VALIDATION.md). Proposed defaults remain assumptions until a decision record confirms them.
