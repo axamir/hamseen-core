@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
+const load=name=>readFile(new URL(name,import.meta.url),'utf8');
+test('contains bilingual role-aware interactive demo',async()=>{const [html,css,js]=await Promise.all([load('index.html'),load('styles.css'),load('app.js')]);assert.match(html,/همسین/);assert.match(html,/data-role="guard"/);assert.match(html,/Synthetic data only/);assert.match(js,/Good neighbors/);assert.match(js,/roleData/);assert.match(js,/documentElement.dir/);assert.match(css,/@media\(max-width:520px\)/);assert.match(css,/prefers-reduced-motion/)});
+test('local server is constrained to its own directory',async()=>{const source=await load('server.mjs');assert.match(source,/path\.startsWith\(root\)/);assert.match(source,/127\.0\.0\.1/);assert.match(source,/Cache-Control/)});

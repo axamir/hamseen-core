@@ -18,6 +18,7 @@ Hamseen unifies building operations, resident services, local commerce, communit
 - [Project metadata](meta/README.md)
 - [AI build instructions](AI_BUILD_INSTRUCTIONS.md)
 - [Definition of done](DEFINITION_OF_DONE.md)
+- [Run the interactive local demo](apps/demo/README.md)
 
 ## Product status
 

@@ -4,6 +4,8 @@ Read in order: `README.md`, `docs/en/00_MANIFESTO.md`, `docs/en/16_MVP_SCOPE.md`
 
 Before handling real or pilot data, also read `docs/en/31_SECURITY_PRIVACY_AI_SAFETY.md` and `docs/en/32_PILOT_OPERATIONS_PACK.md`.
 
+Before presentation, pricing, or sales work, read `docs/en/33_COMMERCIAL_AND_PRICING_MODEL.md` and `docs/en/34_PRESENTATION_AND_DEMO_PACK.md`; never fabricate traction, market figures, testimonials, or returns.
+
 - Documentation is the source of truth. Do not silently expand MVP scope.
 - Preserve Persian/English parity and RTL/LTR behavior.
 - Use modular-monolith boundaries, tenant isolation, least privilege, and append-only audit events.
