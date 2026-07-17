@@ -14,5 +14,6 @@ Read the documents in numerical order. They move from purpose and pilot context 
 | 31–32 | Security and AI safety; pilot operations, migration, and measurement |
 | 33–34 | Commercial/pricing model; presentation and interactive demo pack |
 | 35 | Current implementation, production gaps, and external dependencies |
+| 36 | Evidence audit for documentation, presentation, and constrained MVP |
 
 Use the [Lavizan board data validation questionnaire](26_BOARD_DATA_VALIDATION.md) in stakeholder meetings. Proposed defaults are not building facts until confirmed.
