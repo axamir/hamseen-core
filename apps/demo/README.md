@@ -4,4 +4,6 @@ Run locally with `pnpm --dir apps/demo dev`, then open `http://127.0.0.1:4173`.
 
 This presentation prototype uses deterministic synthetic data, supports Persian RTL and English LTR, and demonstrates resident, guard, manager, and accountant roles. It is not the production MVP and sends no form data.
 
+The long-form board narrative includes a six-moment operational diagnosis, a twelve-capability atlas with explicit MVP/next/vision status, four cross-role handoff scenarios, the interactive role demo, evidence, defensibility, pilot boundaries, and the proposed decision path. Capability examples describe intended product behavior; they are not claims of live deployment or measured outcomes.
+
 The `pages.yml` workflow publishes this directory as the repository presentation site. In GitHub repository settings, set Pages source to **GitHub Actions** once. Before an official board presentation, replace the placeholder contact address, confirm approved Lavizan facts, and keep every synthetic/pilot disclosure visible.
