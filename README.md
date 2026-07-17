@@ -19,6 +19,7 @@ Hamseen unifies building operations, resident services, local commerce, communit
 - [AI build instructions](AI_BUILD_INSTRUCTIONS.md)
 - [Definition of done](DEFINITION_OF_DONE.md)
 - [Run the interactive local demo](apps/demo/README.md)
+- [Open the investor and board presentation](https://axamir.github.io/hamseen-core/)
 - [Run the constrained functional MVP](apps/mvp/README.md)
 - [Product completion list](docs/en/38_REMAINING_WORK_LIST_ONE_PRODUCT.md) / [فهرست تکمیل محصول](docs/fa/38_REMAINING_WORK_LIST_ONE_PRODUCT.md)
 - [Engineering readiness list](docs/en/39_REMAINING_WORK_LIST_TWO_ENGINEERING.md) / [فهرست آمادگی مهندسی](docs/fa/39_REMAINING_WORK_LIST_TWO_ENGINEERING.md)
