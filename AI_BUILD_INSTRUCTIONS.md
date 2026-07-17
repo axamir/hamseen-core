@@ -13,6 +13,7 @@ Build the constrained Hamseen MVP and presentation landing page exactly from thi
 5. Implement in `docs/en/18_BUILD_ORDER.md` order.
 6. For each slice, cite screen IDs, workflow states, API/schema changes, tests, and screenshots.
 7. Stop and ask when a decision affects law, accounting policy, privacy retention, payment movement, or MVP scope.
+8. Treat documents 27–30 as executable contracts: cite feature, permission, entity, and route identifiers in each implementation change.
 
 ## First demonstrable milestone
 
